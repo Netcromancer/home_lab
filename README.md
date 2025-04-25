@@ -4,8 +4,13 @@ The intent of this project is to create a way to deploy a home setup in a modula
 
 ##Targeted Services
 
--Cloud Servers
--Streaming Media (Netflix, Spotify, etc)
--Home Assistant (Alexa, Google Home)
--Security/Home Monitoring
--Storage
+- Cloud Servers
+- Streaming Media (Netflix, Spotify, etc)
+- Home Assistant (Alexa, Google Home)
+- Security/Home Monitoring
+- Storage
+
+  Each service will be its own module and may be partitioned further depending on size and scope. At this time, the intent is to use Terraform or Ansible to create playbooks for each piece.
+
+  There will be a networking guide as well, should a user want to set up a similar network topology to what will be used when this is completed. The basic design will be added when completed and will be altered as the design of the project changes.
+
